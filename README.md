@@ -1,7 +1,7 @@
 # Integração ViaCEP
 Integração da API do ViaCEP com Lumen e React
 
-# Configurando o Back-End
+# Configurando o projeto
 
 Para que o back-end do projeto funcione são necessárias algumas configurações iniciais. Vamos lá.
 
