@@ -19,6 +19,36 @@ Digite o comando abaixo para instalar as dependencias do Lumen.
 composer install
 ```
 
+Crie um arquivo .env igual ao exemplo abaixo:
+
+```
+APP_NAME=CEP
+APP_ENV=local
+APP_KEY=
+APP_DEBUG=true
+APP_URL=http://localhost
+APP_TIMEZONE=UTC
+
+LOG_CHANNEL=stack
+LOG_SLACK_WEBHOOK_URL=
+
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=cep
+DB_USERNAME=cep
+DB_PASSWORD=cep123
+
+CACHE_DRIVER=redis
+QUEUE_CONNECTION=sync
+
+REDIS_CLIENT=predis
+
+REDIS_HOST=127.0.0.1
+REDIS_PORT=6379
+REDIS_DATABASE=0
+```
+
 Após isso, digite o comando abaixo para criar a estrutura no banco de dados.
 
 ```
